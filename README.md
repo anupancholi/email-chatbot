@@ -15,26 +15,16 @@ This project is a prototype of a conversational AI agent that controls a real br
 
 ---
 
-## Final Architecture Diagram
 
-
-flowchart TD
-    User---|"types command"|ChatUI[Chat UI (Next.js, shadcn/ui)]
-    ChatUI---|send|Backend[API/WebSocket Route]
-    Backend---|"1. NLU (OpenAI API)"|AgentLogic[Agent Coordinator]
-    AgentLogic---|"2. Decides and manages browser steps"|BrowserBot[Playwright Chrome]
-    BrowserBot---|controls|Browser[Headless Chromium]
-    Browser---|screenshots|Backend
-    Backend---|messages/screenshots|ChatUI
-    ChatUI---User
-
-#Demo Video URL
+##Demo Video URL
 [Demo Video ](https://drive.google.com/file/d/1g9o7IuMHalHFA1mlifBuUX-O658iDMuW/view?usp=share_link)
+
+
 
 ### Gmail Automation Demo
 
-![Login Success](./Screenshot-2025-07-13-at-17.36.36.png)
-![Compose Email](./Screenshot-2025-07-13-at-17.36.40.png)
+![Login Success](public/Screenshot 2025-07-13 at 17.36.40.png)
+![Compose Email](public/Screenshot 2025-07-13 at 17.36.36.png)
 
 
 ---
