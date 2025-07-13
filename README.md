@@ -23,8 +23,8 @@ This project is a prototype of a conversational AI agent that controls a real br
 
 ### Gmail Automation Demo
 
-![Login Success](public/Screenshot 2025-07-13 at 17.36.40.png)
-![Compose Email](public/Screenshot 2025-07-13 at 17.36.36.png)
+![Login Success](./screenshots/Screenshot 2025-07-13 at 17.36.40.png)
+![Compose Email](./screenshots/Screenshot 2025-07-13 at 17.36.36.png)
 
 
 ---
