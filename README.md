@@ -17,7 +17,7 @@ This project is a prototype of a conversational AI agent that controls a real br
 
 ## Final Architecture Diagram
 
-```mermaid
+
 flowchart TD
     User---|"types command"|ChatUI[Chat UI (Next.js, shadcn/ui)]
     ChatUI---|send|Backend[API/WebSocket Route]
@@ -27,13 +27,14 @@ flowchart TD
     Browser---|screenshots|Backend
     Backend---|messages/screenshots|ChatUI
     ChatUI---User
-```
+
 #Demo Video URL
 [Demo Video ](https://drive.google.com/file/d/1g9o7IuMHalHFA1mlifBuUX-O658iDMuW/view?usp=share_link)
 
-example
-![1st](Screenshot 2025-07-13 at 17.36.36.png)
-![2nd](Screenshot 2025-07-13 at 17.36.40.png)
+### Gmail Automation Demo
+
+![Login Success](./Screenshot-2025-07-13-at-17.36.36.png)
+![Compose Email](./Screenshot-2025-07-13-at-17.36.40.png)
 
 
 ---
